@@ -1,4 +1,18 @@
 url: https://sciensanogit.github.io/epiquest/
 template:
   bootstrap: 5
-
+navbar:
+  structure:
+    left:  [intro, reference, articles]
+    right: [github]
+  components:
+    intro:
+      text: "Get started"
+      href: articles/getting_started.html
+    articles:
+      text: "Vignettes"
+      menu:
+        - text: "Get started"
+          href: articles/getting_started.html
+        - text: "Dealing with new data"
+          href: articles/dealing-with-new-data.html
