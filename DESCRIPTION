@@ -1,0 +1,42 @@
+Package: epiquest
+Title: Compute Quantile Epidemic State (QUEST) Thresholds for Epidemiological Surveillance of Infectious Diseases
+Version: 0.0.0.9000
+Authors@R: 
+    person(
+        "Frederik", "De Keersmaeker", 
+        email =  "frederik.dekeersmaeker@sciensano.be", 
+        role = c("aut", "cre"),
+        comment = c(ORCID = "0009-0009-7343-2756")
+    )
+Description: The methodology to compute Quantile Epidemic State (QUEST) thresholds was developed in 2025 
+    at Sciensano, the Belgian Institute for Health. While other methods for thresholds of respiratory 
+    surveillance signals aim to classify seasonal intensity, allowing for comparison between seasons, 
+    the QUEST thresholds were developed to do week-to-week surveillance of the epidemiogical situation. 
+    A central objective during development was to ensure these thresholds were easy to interpret and 
+    directly relevant to monitoring the burden of respiratory pathogens on the healthcare system. In short, 
+    the method uses a hidden Markov model to define the epidemic state and defines thresholds as specific
+    quantiles of observed epidemic state incidences. 
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports: 
+    depmixS4,
+    dplyr,
+    forcats,
+    ggplot2,
+    progress,
+    purrr,
+    rlang,
+    scales,
+    stats,
+    tibble,
+    tidyr,
+    utils
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
