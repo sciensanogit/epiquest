@@ -36,4 +36,4 @@ The palette uses specific hex codes to represent severity. In general:
 
 ## See also
 
-[`generate_state_labels_hmm`](generate_state_labels_hmm.md)
+[`generate_state_labels_hmm`](https://sciensanogit.github.io/epiquest/reference/generate_state_labels_hmm.md)

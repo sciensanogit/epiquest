@@ -2,5 +2,7 @@
 
 ### All vignettes
 
-- [Dealing with new data](dealing-with-new-data.md):
-- [Getting started with epiquest](getting-started.md):
+- [Dealing with new
+  data](https://sciensanogit.github.io/epiquest/articles/dealing-with-new-data.md):
+- [Getting started with
+  epiquest](https://sciensanogit.github.io/epiquest/articles/getting-started.md):

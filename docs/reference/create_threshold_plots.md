@@ -1,8 +1,9 @@
 # Visualize hidden Markov model and threshold results
 
 Extends the visualizations from
-[`create_hmm_plots()`](create_hmm_plots.md) by adding horizontal or
-vertical dashed lines representing the calculated QUEST thresholds.
+[`create_hmm_plots()`](https://sciensanogit.github.io/epiquest/reference/create_hmm_plots.md)
+by adding horizontal or vertical dashed lines representing the
+calculated QUEST thresholds.
 
 ## Usage
 
@@ -15,7 +16,7 @@ create_threshold_plots(list_results, print = FALSE)
 - list_results:
 
   An object of class `epiquest_thresholds` produced by
-  [`run_threshold_computation()`](run_threshold_computation.md).
+  [`run_threshold_computation()`](https://sciensanogit.github.io/epiquest/reference/run_threshold_computation.md).
 
 - print:
 
@@ -26,8 +27,8 @@ create_threshold_plots(list_results, print = FALSE)
 
 An object of class `epiquest_plot_list`, a named `list` of `ggplot2`
 objects, identical in structure to the output of
-[`create_hmm_plots()`](create_hmm_plots.md), but with threshold lines
-added to:
+[`create_hmm_plots()`](https://sciensanogit.github.io/epiquest/reference/create_hmm_plots.md),
+but with threshold lines added to:
 
 - `jitter_hard/soft`
 
@@ -39,14 +40,15 @@ added to:
 
 ## Details
 
-This function first calls [`create_hmm_plots()`](create_hmm_plots.md) to
-generate the base visualizations. It then overlays dashed lines
+This function first calls
+[`create_hmm_plots()`](https://sciensanogit.github.io/epiquest/reference/create_hmm_plots.md)
+to generate the base visualizations. It then overlays dashed lines
 corresponding to the `thresholds` stored in the `list_results` object.
 
 ## See also
 
-[`run_threshold_computation`](run_threshold_computation.md),
-[`create_hmm_plots`](create_hmm_plots.md)
+[`run_threshold_computation`](https://sciensanogit.github.io/epiquest/reference/run_threshold_computation.md),
+[`create_hmm_plots`](https://sciensanogit.github.io/epiquest/reference/create_hmm_plots.md)
 
 ## Examples
 

@@ -34,4 +34,4 @@ The labels are assigned as follows:
 
 ## See also
 
-[`generate_palette_hmm`](generate_palette_hmm.md)
+[`generate_palette_hmm`](https://sciensanogit.github.io/epiquest/reference/generate_palette_hmm.md)

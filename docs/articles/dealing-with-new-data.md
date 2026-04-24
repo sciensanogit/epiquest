@@ -19,9 +19,10 @@ library(ggplot2)
 ## Recomputing thresholds
 
 We will still be working with the Belgian SARI data described in the
-vignette [Getting started](getting-started.md)
-([`vignette("getting-started")`](../articles/getting-started.md)). We
-simulate 40 extra weeks of data consisting of a single peak: 20 weeks
+vignette [Getting
+started](https://sciensanogit.github.io/epiquest/articles/getting-started.md)
+([`vignette("getting-started")`](https://sciensanogit.github.io/epiquest/articles/getting-started.md)).
+We simulate 40 extra weeks of data consisting of a single peak: 20 weeks
 where the incidence increases linearly followed by 20 weeks where it
 drops at the same rate. We add some random noise to make it look more
 like real world data.
@@ -57,9 +58,10 @@ df_all_normal <- bind_rows(df_sari_be, df_sim_normal)
 
 One way to incorporate the new data is to recompute thresholds. We can
 add the data week per week using
-[`run_loop_thresholds()`](../reference/run_loop_thresholds.md) as
-demonstrated in [Getting started](getting-started.md)
-([`vignette("getting-started")`](../articles/getting-started.md)).
+[`run_loop_thresholds()`](https://sciensanogit.github.io/epiquest/reference/run_loop_thresholds.md)
+as demonstrated in [Getting
+started](https://sciensanogit.github.io/epiquest/articles/getting-started.md)
+([`vignette("getting-started")`](https://sciensanogit.github.io/epiquest/articles/getting-started.md)).
 
 ``` r
 
@@ -143,7 +145,7 @@ without going into the technical details.
     assignments for each week, which is the most likely given the
     observed incidences? This is encoded as `method = "global"` in the
     output of
-    [`run_out_of_sample_decoding()`](../reference/run_out_of_sample_decoding.md).
+    [`run_out_of_sample_decoding()`](https://sciensanogit.github.io/epiquest/reference/run_out_of_sample_decoding.md).
 
 ``` r
 
@@ -162,8 +164,9 @@ decode_plots_normal$time_series +
     outputting a single state for each week, we are given a distribution
     over the different states each week. This is encoded as
     `method = "local"` and provides what we called *posterior
-    probabilities* in [Getting started](getting-started.md)
-    ([`vignette("getting-started")`](../articles/getting-started.md)).
+    probabilities* in [Getting
+    started](https://sciensanogit.github.io/epiquest/articles/getting-started.md)
+    ([`vignette("getting-started")`](https://sciensanogit.github.io/epiquest/articles/getting-started.md)).
     If we want one single state assignment each week, we can take the
     most probable one.
 
@@ -193,7 +196,7 @@ decode_plots_normal$time_series +
 ![](dealing-with-new-data_files/figure-html/unnamed-chunk-14-1.png)
 
 The output of
-[`run_out_of_sample_decoding()`](../reference/run_out_of_sample_decoding.md)
+[`run_out_of_sample_decoding()`](https://sciensanogit.github.io/epiquest/reference/run_out_of_sample_decoding.md)
 contains two `data.frame` objects, one with the most probable state
 according to each of the 3 methods and one with the state probabilities
 for the filtering and local methods.

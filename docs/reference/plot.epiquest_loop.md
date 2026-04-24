@@ -1,7 +1,8 @@
 # Plot method for loop stability results
 
-A wrapper for [`create_loop_plots`](create_loop_plots.md) that returns
-the threshold stability visualization by default.
+A wrapper for
+[`create_loop_plots`](https://sciensanogit.github.io/epiquest/reference/create_loop_plots.md)
+that returns the threshold stability visualization by default.
 
 ## Usage
 
@@ -15,7 +16,7 @@ plot(x, ...)
 - x:
 
   An object of class `epiquest_loop` produced by
-  [`run_loop_thresholds()`](run_loop_thresholds.md).
+  [`run_loop_thresholds()`](https://sciensanogit.github.io/epiquest/reference/run_loop_thresholds.md).
 
 - ...:
 

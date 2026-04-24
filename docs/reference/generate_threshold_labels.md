@@ -35,4 +35,4 @@ tiers:
 
 ## See also
 
-[`generate_palette_thresholds`](generate_palette_thresholds.md)
+[`generate_palette_thresholds`](https://sciensanogit.github.io/epiquest/reference/generate_palette_thresholds.md)

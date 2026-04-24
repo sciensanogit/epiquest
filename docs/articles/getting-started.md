@@ -74,9 +74,12 @@ ggplot(df_sari_be, aes(x = index, y = rate)) +
 *Reading tip: it is not an easy task understand (or explain, for that
 matter) what a hidden Markov model is. Instead of opting for a rigorous
 exposition, below we gently talk through the relevant output of the
-functions [`run_hmm()`](../reference/run_hmm.md) and
-[`create_hmm_plots()`](../reference/create_hmm_plots.md) in the hope
-that you will undestand what a HMM is by the end of this section.*
+functions
+[`run_hmm()`](https://sciensanogit.github.io/epiquest/reference/run_hmm.md)
+and
+[`create_hmm_plots()`](https://sciensanogit.github.io/epiquest/reference/create_hmm_plots.md)
+in the hope that you will undestand what a HMM is by the end of this
+section.*
 
 The first step is to fit a hidden Markov model (HMM) to the surveillance
 time series. If we set `n_states = 3`, we assume that the
@@ -149,10 +152,11 @@ summary(fit)
 ```
 
 Each state has its own distribution of incidences. The function
-[`run_hmm()`](../reference/run_hmm.md) assumes that each of these
-distributions is normal/Gaussian if `type = rate`. Below you can see the
-estimated mean and standard deviation of the 3 hidden states named `L1`,
-`L2` and `L3`. The states are always ordered by increasing mean:
+[`run_hmm()`](https://sciensanogit.github.io/epiquest/reference/run_hmm.md)
+assumes that each of these distributions is normal/Gaussian if
+`type = rate`. Below you can see the estimated mean and standard
+deviation of the 3 hidden states named `L1`, `L2` and `L3`. The states
+are always ordered by increasing mean:
 
 - `L1` is a **low activity state** with mean incidence 4.47.
 - `L2` is a **medium activity state** with mean incidence 10.76.
@@ -263,16 +267,17 @@ in indicence distributions if it avoids excessing state switching and
 favors extended periods of stable state assignments.
 
 Some last remarks concerning missing data: - The function
-[`run_hmm()`](../reference/run_hmm.md) can handle missing observations;
-they **should not** be removed from the data, but rather be left as
-`NA`. - However, if the surveillance signal is interrupted for extended
-periods (e.g., for systems that do not operate during low intensity
-months), it is strongly recommended to use `seasonal = TRUE` in
-[`run_hmm()`](../reference/run_hmm.md). In that case, the weeks in which
-no data were collected **should** be removed. A grouping variable
-`season` must be included to indicate which weeks belong to the same
-season. The HMM will then treat each seasonal subseries as an
-independent time series.
+[`run_hmm()`](https://sciensanogit.github.io/epiquest/reference/run_hmm.md)
+can handle missing observations; they **should not** be removed from the
+data, but rather be left as `NA`. - However, if the surveillance signal
+is interrupted for extended periods (e.g., for systems that do not
+operate during low intensity months), it is strongly recommended to use
+`seasonal = TRUE` in
+[`run_hmm()`](https://sciensanogit.github.io/epiquest/reference/run_hmm.md).
+In that case, the weeks in which no data were collected **should** be
+removed. A grouping variable `season` must be included to indicate which
+weeks belong to the same season. The HMM will then treat each seasonal
+subseries as an independent time series.
 
 ## Select epidemic state(s)
 
@@ -302,7 +307,7 @@ can be excluded from the definition of a normal epidemic.
 
 Once an epidemic state is identified, QUEST thresholds can be computed
 using
-[`run_threshold_computation()`](../reference/run_threshold_computation.md).
+[`run_threshold_computation()`](https://sciensanogit.github.io/epiquest/reference/run_threshold_computation.md).
 The default option is that the state with the highest mean incidence is
 the epidemic state. The default can be overwritten using the
 `epidemic_state_incidences` argument (not illustrated here).
@@ -356,7 +361,7 @@ summary(thresh)
 ```
 
 The function
-[`create_threshold_plots()`](../reference/create_threshold_plots.md)
+[`create_threshold_plots()`](https://sciensanogit.github.io/epiquest/reference/create_threshold_plots.md)
 recreates the plots we previously discussed, but with the computed
 thresholds added. Below we see that the low threshold reasonably
 separates the medium activity (`L2`) and high activity (`L3`) states,

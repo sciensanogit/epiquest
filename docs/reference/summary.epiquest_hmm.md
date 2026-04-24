@@ -15,7 +15,7 @@ summary(object, ...)
 - object:
 
   An object of class `epiquest_hmm` produced by
-  [`run_hmm()`](run_hmm.md).
+  [`run_hmm()`](https://sciensanogit.github.io/epiquest/reference/run_hmm.md).
 
 - ...:
 

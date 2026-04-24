@@ -15,7 +15,7 @@ create_loop_plots(list_results, print = FALSE)
 - list_results:
 
   An object of class `epiquest_loop` produced by
-  [`run_loop_thresholds()`](run_loop_thresholds.md).
+  [`run_loop_thresholds()`](https://sciensanogit.github.io/epiquest/reference/run_loop_thresholds.md).
 
 - print:
 
@@ -44,8 +44,8 @@ the data window used for that specific model fit.
 
 ## See also
 
-[`generate_palette_thresholds`](generate_palette_thresholds.md),
-[`generate_palette_hmm`](generate_palette_hmm.md)
+[`generate_palette_thresholds`](https://sciensanogit.github.io/epiquest/reference/generate_palette_thresholds.md),
+[`generate_palette_hmm`](https://sciensanogit.github.io/epiquest/reference/generate_palette_hmm.md)
 
 ## Examples
 

@@ -68,8 +68,8 @@ the varying precision of proportions by using the raw counts (`num` and
 estimated mean.
 
 The posterior probabilities are 'local' probabilities. See
-[`run_out_of_sample_decoding`](run_out_of_sample_decoding.md) for more
-information.
+[`run_out_of_sample_decoding`](https://sciensanogit.github.io/epiquest/reference/run_out_of_sample_decoding.md)
+for more information.
 
 ## Missing Data
 

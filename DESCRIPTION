@@ -16,6 +16,8 @@ Description: The methodology to compute Quantile Epidemic State (QUEST) threshol
     directly relevant to monitoring the burden of respiratory pathogens on the healthcare system. In short, 
     the method uses a hidden Markov model to define the epidemic state and defines thresholds as specific
     quantiles of observed epidemic state incidences. 
+URL: https://sciensanogit.github.io/epiquest, https://github.com/sciensanogit/epiquest
+BugReports: https://github.com/sciensanogit/epiquest/issues
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

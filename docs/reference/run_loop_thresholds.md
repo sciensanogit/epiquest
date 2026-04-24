@@ -23,7 +23,8 @@ run_loop_thresholds(
 
 - obs_data:
 
-  A `data.frame` formatted for [`run_hmm()`](run_hmm.md).
+  A `data.frame` formatted for
+  [`run_hmm()`](https://sciensanogit.github.io/epiquest/reference/run_hmm.md).
 
 - n_states:
 
@@ -45,7 +46,7 @@ run_loop_thresholds(
 
   An integer vector. HMM states considered as "epidemic" (see the
   section 'Defining the "epidemic" state(s)' in
-  [`run_threshold_computation`](run_threshold_computation.md)).
+  [`run_threshold_computation`](https://sciensanogit.github.io/epiquest/reference/run_threshold_computation.md)).
 
 - step:
 
@@ -88,8 +89,8 @@ number of states.
 
 ## See also
 
-[`create_loop_plots`](create_loop_plots.md),
-[`run_threshold_computation`](run_threshold_computation.md)
+[`create_loop_plots`](https://sciensanogit.github.io/epiquest/reference/create_loop_plots.md),
+[`run_threshold_computation`](https://sciensanogit.github.io/epiquest/reference/run_threshold_computation.md)
 
 ## Examples
 

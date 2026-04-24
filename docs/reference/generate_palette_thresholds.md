@@ -21,4 +21,4 @@ A `ggplot2` manual color scale object.
 
 ## See also
 
-[`generate_threshold_labels`](generate_threshold_labels.md)
+[`generate_threshold_labels`](https://sciensanogit.github.io/epiquest/reference/generate_threshold_labels.md)

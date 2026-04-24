@@ -1,7 +1,8 @@
 # Plot method for HMM results
 
-A wrapper for [`create_hmm_plots`](create_hmm_plots.md) that provides
-the "full time series" visualization by default.
+A wrapper for
+[`create_hmm_plots`](https://sciensanogit.github.io/epiquest/reference/create_hmm_plots.md)
+that provides the "full time series" visualization by default.
 
 ## Usage
 
@@ -15,7 +16,7 @@ plot(x, ...)
 - x:
 
   An object of class `epiquest_hmm` produced by
-  [`run_hmm()`](run_hmm.md).
+  [`run_hmm()`](https://sciensanogit.github.io/epiquest/reference/run_hmm.md).
 
 - ...:
 
