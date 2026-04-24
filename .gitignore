@@ -6,6 +6,5 @@
 .quarto
 *.toml
 inst/doc
-docs
 /doc/
 /Meta/
