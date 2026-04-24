@@ -8,11 +8,11 @@ navbar:
   components:
     intro:
       text: "Get started"
-      href: articles/getting_started.html
+      href: articles/getting-started.html
     articles:
       text: "Vignettes"
       menu:
         - text: "Get started"
-          href: articles/getting_started.html
+          href: articles/getting-started.html
         - text: "Dealing with new data"
           href: articles/dealing-with-new-data.html
