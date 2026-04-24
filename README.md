@@ -26,10 +26,10 @@ observed epidemic state incidences.
 If you are new to the QUEST methodology, we recommend starting with our
 primary guides:
 
-- <a href="https://sciensanogit.github.io/epiquest/articles/articles/getting-started.html">Get
+- <a href="https://sciensanogit.github.io/epiquest/articles/getting-started.html">Get
   started with QUEST</a>
 
-- <a href="https://sciensanogit.github.io/epiquest/articles/articles/dealing-with-new-data.html">Dealing
+- <a href="https://sciensanogit.github.io/epiquest/articles/dealing-with-new-data.html">Dealing
   with new data</a>
 
 ## Installation

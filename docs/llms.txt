@@ -24,10 +24,10 @@ If you are new to the QUEST methodology, we recommend starting with our
 primary guides:
 
 - [Get started with
-  QUEST](https://sciensanogit.github.io/epiquest/articles/articles/getting-started.html)
+  QUEST](https://sciensanogit.github.io/epiquest/articles/getting-started.html)
 
 - [Dealing with new
-  data](https://sciensanogit.github.io/epiquest/articles/articles/dealing-with-new-data.html)
+  data](https://sciensanogit.github.io/epiquest/articles/dealing-with-new-data.html)
 
 ## Installation
 
